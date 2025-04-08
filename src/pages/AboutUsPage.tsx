@@ -9,19 +9,19 @@ const AboutUsPage = () => {
     {
       name: 'Leyla Aslanoğlu',
       role: t('about.team.salesDirector'),
-      image: '/src/assets/team/Leyla Aslanoğlu.jpeg',
+      image: '/assets/team/Leyla Aslanoğlu.jpeg',
       description: t('about.team.salesDesc'),
     },
     {
       name: 'Mikail Nadir',
       role: t('about.team.founderCEO'),
-      image: '/src/assets/team/Mikail Nadir.jpg',
+      image: '/assets/team/Mikail Nadir.jpg',
       description: t('about.team.founderDesc'),
     },
     {
       name: 'Bedel Nadir',
       role: t('about.team.marketingDirector'),
-      image: '/src/assets/team/Bedel Nadir.jpeg',
+      image: '/assets/team/Bedel Nadir.jpeg',
       description: t('about.team.marketingDesc'),
     },
   ];
