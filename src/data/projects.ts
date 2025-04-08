@@ -1,0 +1,138 @@
+export interface Project {
+  id: string;
+  title: string;
+  location: string;
+  description: string;
+  image: string;
+  features: string[];
+  coordinates: [number, number];
+}
+
+export const projects: Project[] = [
+  {
+    id: '1',
+    title: 'Modern Apartments in Lara',
+    location: 'Lara, Antalya',
+    description: 'projects.descriptions.modern_apartments_lara',
+    image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1920',
+    features: ['projects.features.sea_view', 'projects.features.security', 'projects.features.swimming_pool', 'projects.features.fitness_center', 'projects.features.parking'],
+    coordinates: [36.8508, 30.8525],
+  },
+  {
+    id: '2',
+    title: 'Exclusive Villas in Konyaaltı',
+    location: 'Konyaaltı, Antalya',
+    description: 'projects.descriptions.exclusive_villas_konyaalti',
+    image: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&q=80&w=1920',
+    features: ['projects.features.private_garden', 'projects.features.smart_home', 'projects.features.private_pool', 'projects.features.beach_access', 'projects.features.mountain_view'],
+    coordinates: [36.8605, 30.6332],
+  },
+  {
+    id: '3',
+    title: 'Beachfront Residences',
+    location: 'Alanya, Antalya',
+    description: 'projects.descriptions.beachfront_residences',
+    image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=1920',
+    features: ['projects.features.beachfront', 'projects.features.infinity_pool', 'projects.features.spa_center', 'projects.features.restaurant', 'projects.features.concierge'],
+    coordinates: [36.5444, 31.9954],
+  },
+  {
+    id: '4',
+    title: 'City Center Apartments',
+    location: 'Muratpaşa, Antalya',
+    description: 'projects.descriptions.city_center_apartments',
+    image: 'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&q=80&w=1920',
+    features: ['projects.features.central_location', 'projects.features.modern_design', 'projects.features.shopping_nearby', 'projects.features.security', 'projects.features.parking'],
+    coordinates: [36.8875, 30.7033],
+  },
+  {
+    id: '5',
+    title: 'Golf Resort Villas',
+    location: 'Belek, Antalya',
+    description: 'projects.descriptions.golf_resort_villas',
+    image: 'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&q=80&w=1920',
+    features: ['projects.features.golf_course_view', 'projects.features.private_pool', 'projects.features.garden', 'projects.features.security', 'projects.features.club_house'],
+    coordinates: [36.8635, 31.0522],
+  },
+  {
+    id: '6',
+    title: 'Mountain View Residences',
+    location: 'Kepez, Antalya',
+    description: 'projects.descriptions.mountain_view_residences',
+    image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&q=80&w=1920',
+    features: ['projects.features.mountain_view', 'projects.features.modern_design', 'projects.features.gym', 'projects.features.garden', 'projects.features.parking'],
+    coordinates: [36.9250, 30.6892],
+  },
+  {
+    id: '7',
+    title: 'Marina Apartments',
+    location: 'Konyaaltı Marina, Antalya',
+    description: 'projects.descriptions.marina_apartments',
+    image: 'https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&q=80&w=1920',
+    features: ['projects.features.marina_view', 'projects.features.security', 'projects.features.swimming_pool', 'projects.features.fitness_center', 'projects.features.parking'],
+    coordinates: [36.8419, 30.6082],
+  },
+  {
+    id: '8',
+    title: 'Luxury Forest Villas',
+    location: 'Döşemealtı, Antalya',
+    description: 'projects.descriptions.luxury_forest_villas',
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1920',
+    features: ['projects.features.forest_view', 'projects.features.private_pool', 'projects.features.garden', 'projects.features.security', 'projects.features.smart_home'],
+    coordinates: [37.0018, 30.6838],
+  },
+  {
+    id: '9',
+    title: 'Historic District Apartments',
+    location: 'Kaleiçi, Antalya',
+    description: 'projects.descriptions.historic_district_apartments',
+    image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1920',
+    features: ['projects.features.historic_location', 'projects.features.modern_design', 'projects.features.sea_view', 'projects.features.traditional_design', 'projects.features.tourist_area'],
+    coordinates: [36.8875, 30.7048],
+  },
+  {
+    id: '10',
+    title: 'Seaside Complex',
+    location: 'Kemer, Antalya',
+    description: 'projects.descriptions.seaside_complex',
+    image: 'https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=1920',
+    features: ['projects.features.sea_view', 'projects.features.beach_access', 'projects.features.swimming_pool', 'projects.features.restaurant', 'projects.features.sports_facilities'],
+    coordinates: [36.5977, 30.5615],
+  },
+  {
+    id: '11',
+    title: 'Riverside Residences',
+    location: 'Manavgat, Antalya',
+    description: 'projects.descriptions.riverside_residences',
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1920',
+    features: ['projects.features.river_view', 'projects.features.garden', 'projects.features.swimming_pool', 'projects.features.security', 'projects.features.nature'],
+    coordinates: [36.7866, 31.4433],
+  },
+  {
+    id: '12',
+    title: 'Urban Lifestyle Apartments',
+    location: 'Muratpaşa, Antalya',
+    description: 'projects.descriptions.urban_lifestyle_apartments',
+    image: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=1920',
+    features: ['projects.features.city_view', 'projects.features.modern_design', 'projects.features.gym', 'projects.features.parking', 'projects.features.shopping_nearby'],
+    coordinates: [36.8892, 30.7019],
+  },
+  {
+    id: '13',
+    title: 'Boutique Beach Villas',
+    location: 'Side, Antalya',
+    description: 'projects.descriptions.boutique_beach_villas',
+    image: 'https://images.unsplash.com/photo-1600047509358-9dc75507daeb?auto=format&fit=crop&q=80&w=1920',
+    features: ['projects.features.beach_access', 'projects.features.private_pool', 'projects.features.garden', 'projects.features.security', 'projects.features.sea_view'],
+    coordinates: [36.7667, 31.3889],
+  },
+  {
+    id: '14',
+    title: 'Mountain Resort Apartments',
+    location: 'Kemer Mountains, Antalya',
+    description: 'projects.descriptions.mountain_resort_apartments',
+    image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&q=80&w=1920',
+    features: ['projects.features.mountain_view', 'projects.features.resort_facilities', 'projects.features.swimming_pool', 'projects.features.restaurant', 'projects.features.nature'],
+    coordinates: [36.6000, 30.5500],
+  },
+];
